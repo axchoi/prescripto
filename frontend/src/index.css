@@ -2,6 +2,7 @@
 
 @theme {
     --color-primary: #5f6fff;
+    --grid-template-columns-auto: repeat(auto-fill, minmax(200px, 1fr))
 }
 
 @tailwind base;
@@ -10,4 +11,8 @@
 
 .active hr {
     @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden
 }
