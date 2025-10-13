@@ -19,3 +19,8 @@ app.get('/', (req, res)=> {
 })
 
 app.listen(port, ()=> console.log("server started ", port))
+<<<<<<< HEAD
+=======
+
+//test
+>>>>>>> aee826b300764f3b6b9af31f5a49b4d4e5494c78
